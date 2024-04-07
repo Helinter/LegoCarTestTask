@@ -31,6 +31,12 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .header__burger-button {
+    margin-right: 0;
+  }
+}
+
 .header__list-container {
   align-items: center;
   justify-content: center;
@@ -45,6 +51,12 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .header__list-container {
+    margin-top: 18px;
+    padding-bottom: 19px;
+  }
+}
 
 .header__location-container {
   font-family: 'Inter', sans-serif;
@@ -79,6 +91,12 @@
 @media screen and (max-width: 899px) {
   .header__logo {
     margin-right: 204px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .header__logo {
+    margin-right: 89px;
   }
 }
 
@@ -138,17 +156,25 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .header__button {
+    display: none;
+  }
+}
+
 .header__button:hover {
   background-color: rgba(0, 108, 216, 1);
 }
 
 .location {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   margin-right: 32px;
 }
 
 .route {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
 }
@@ -233,6 +259,12 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .frames {
+    grid-template-columns: auto;
+  }
+}
+
 @media screen and (max-width: 899px) {
   .content__frame {
     width: 100%;
@@ -241,6 +273,15 @@
     background-repeat: no-repeat;
   }
 }
+
+@media screen and (max-width: 599px) {
+  .frames {
+    grid-template-columns: 335px;
+    grid-gap: 12px;
+    width: 100%;
+  }
+}
+
 
 .content__title {
   font-family: 'Inter', sans-serif;
@@ -257,6 +298,19 @@
 @media screen and (max-width: 1300px) {
   .content__title {
     max-width: 603px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .content__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    margin-top: 34px;
+    margin-bottom: 23px;
+    max-width: 335px;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -281,6 +335,20 @@
   max-width: 272px;
 }
 
+@media screen and (max-width: 599px) {
+  .frame-title {
+    margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  max-width: 230px;
+  font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+  }
+}
+
 .frame-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -301,6 +369,15 @@
 @media screen and (max-width: 1300px) {
   .frame-text.reservation  {
    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .frame-text {
+    margin-right: 0;
+    margin-left: 16px;
+    max-width: 284px;
+    margin-bottom: 0;
   }
 }
 
@@ -346,6 +423,15 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .content__frame img.frame-image[src='./images/Mockup 1.svg'] {
+    width: 131px;
+    height: 75px;
+    bottom: 1px;
+    right: -7px;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .content__frame img.frame-image[src='./images/Bgimg.svg'] {
     right: 4px;
@@ -361,6 +447,15 @@
     height: 136px;
     bottom: -12px;
     right: 10px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .content__frame img.frame-image[src='./images/Bgimg.svg'] {
+    width: 149px;
+    height: 69px;
+    bottom: 1px;
+    right: 7px;
   }
 }
 
@@ -382,6 +477,15 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .content__frame img.frame-image[src='./images/MERCEDES 1.svg'] {
+    width: 126px;
+    height: 64px;
+    bottom: 2px;
+    right: 12px;
+  }
+}
+
 @media screen and (max-width: 1300px) {
   .content__frame img.frame-image[src='./images/imagebg.svg'] {
     right: 24px;
@@ -397,6 +501,15 @@
     height: 107px;
     bottom: 6px;
     right: 21px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .content__frame img.frame-image[src='./images/imagebg.svg'] {
+    width: 105px;
+    height: 60px;
+    bottom: 3px;
+    right: 24px;
   }
 }
 
@@ -432,6 +545,16 @@
   }
 }
 
+
+
+@media screen and (max-width: 599px) {
+  .frame-button {
+    margin-left: 16px;
+    height: 41px;
+    margin-top: 32px;
+  }
+}
+
 .frame-button:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
@@ -464,5 +587,29 @@
   .vector-elipse,
   .vector-search {
     display: none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .content__frame {
+    height: 194px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .reserv {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .frame-text.reservation {
+    max-width: 247px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .last {
+    margin-top: 13px;
   }
 }
