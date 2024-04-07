@@ -1,0 +1,241 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: rgba(102, 102, 102, 1);
+}
+
+.header__list-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__location-container {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgba(206, 206, 206, 1);
+  border-bottom: 1px solid rgba(206, 206, 206, 1);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.header__logo {}
+
+.header__list {
+  height: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 240px;
+  margin-right: 56px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.header__button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: 204px;
+  height: 40px;
+  background-color: rgba(11, 69, 127, 1);
+  color: rgba(251, 251, 251, 1);
+  border-radius: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.header__button:hover {
+  background-color: rgba(0, 108, 216, 1);
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-right: 32px;
+}
+
+.route {
+  display: flex;
+  flex-direction: row;
+}
+
+.time {
+  margin-left: 698px;
+  display: flex;
+  flex-direction: row;
+}
+
+.paragraph {
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+
+.content {
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 1);
+}
+
+.frames {
+  display: grid;
+  grid-template-columns: 424px 424px 424px;
+  grid-template-rows: 250px 250px;
+  grid-gap: 12px;
+}
+
+.content__frame:nth-child(1),
+.content__frame:nth-child(3) {
+  grid-row: span 2;
+}
+
+.content__title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.content__frame {
+  background-image: url(./images/Rectangle\ 615.svg);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  max-width: 272px;
+}
+
+.frame-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  margin-right: 32px;
+  max-width: 323px;
+}
+
+.frame-text.reservation {
+  max-width: 296px;
+}
+
+.frame-image {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  z-index: 100;
+}
+
+.content__frame img.frame-image[src='./images/imagebg.svg'],
+.content__frame img.frame-image[src='./images/Mockup 1.svg'] {
+  position: absolute;
+  bottom: 0px;
+    right: 0px;
+  z-index: 100;
+}
+
+.frame-button {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 16.94px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  color: inherit;
+  padding: 14px 28px;
+  margin-left: 32px;
+  letter-spacing: 0.06em;
+}
+
+.frame-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+
+.frame-vector {
+  position: absolute;
+  bottom: 0px;
+  right: 58px;
+}
+
+.frame-vector-container {
+  position: absolute;
+}
+
+.vector-elipse {
+  position: absolute;
+  bottom: -310px;
+  right: -288px;
+}
+
+.vector-search {
+  position: absolute;
+  bottom: -274px;
+  right: -193px;
+}
