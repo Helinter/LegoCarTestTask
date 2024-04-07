@@ -198,6 +198,8 @@
 }
 
 .frame-button {
+  position: relative;
+  z-index: 9999;
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   line-height: 16.94px;
